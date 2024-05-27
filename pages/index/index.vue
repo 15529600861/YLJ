@@ -83,6 +83,7 @@
 	// 引入公共的js文件(自己写好的js代码)
 	import datas from '../../commons/js/datas.js';
 	import myfun from '../../commons/js/myfun.js';
+	
 
 
 	export default {
