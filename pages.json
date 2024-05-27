@@ -1,0 +1,108 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "云聊界--NebulaChat",
+				"navigationStyle": "custom",
+				"softinputMode": "adjustResize", //手机软键盘升起不让其将页面上推
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/signin/signin",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"softinputMode": "adjustResize" //手机软键盘升起不让其将页面上推
+			}
+		},
+		{
+			"path": "pages/signup/signup",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"softinputMode": "adjustResize" //手机软键盘升起不让其将页面上推
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "云聊界--NebulaChat",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"softinputMode": "adjustResize" //手机软键盘升起不让其将页面上推
+			}
+		},
+		{
+			"path": "pages/userhome/userhome",
+			"style": {
+				"navigationBarTitleText": "云聊界--NebulaChat",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+				// "softinputMode": "adjustResize" //手机软键盘升起不让其将页面上推
+			}
+		},
+		{
+			"path": "pages/userdetials/userdetials",
+			"style": {
+				"navigationBarTitleText": "云聊界--NebulaChat",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"softinputMode": "adjustResize" //手机软键盘升起不让其将页面上推
+			}
+		},
+		{
+			"path": "pages/friendrequest/friendrequest",
+			"style": {
+				"navigationBarTitleText": "云聊界--NebulaChat",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"softinputMode": "adjustResize" //手机软键盘升起不让其将页面上推
+			}
+		},
+		{
+			"path": "pages/chatroom/chatroom",
+			"style": {
+				"navigationBarTitleText": "云聊界--NebulaChat",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"softinputMode": "adjustResize" //手机软键盘升起不让其将页面上推
+			}
+		},
+		{
+			"path": "pages/buildgroup/buildgroup",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"softinputMode": "adjustResize" //手机软键盘升起不让其将页面上推
+			}
+		},
+		{
+			"path": "pages/grouphome/grouphome",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"softinputMode": "adjustResize" //手机软键盘升起不让其将页面上推
+			}
+		},
+		{
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "云聊界-NebulaChat",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
